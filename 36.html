@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bebras國際運算思維能力測驗</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/custom.css">
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		
+		<!--datetime picker-->
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+		
+		<!--text editor-->
+		<script src="js/ckeditor.js"></script>
+		
+		<!--tags input-->
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />
+		<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
+
+		<!--chart.js-->
+		<script src="js/Chart.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid" >
+	<div class="row">
+		<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#5ebbe7;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toogle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/"><img src="img/bebras.png" height="40px"></a>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="?page=news"><img src="img/nav-news.png" height="40px"></a></li>
+						<li><a href="?page=about"><img src="img/nav-about.png" height="40px"></a></li>
+						<li><a href="?page=try"><img src="img/nav-try.png" height="40px"></a></li>
+						<li><a href="?page=contact"><img src="img/nav-contact.png" height="40px"></a></li>
+						<li><a href="?page=start_test"><img src="img/nav-start.png" height="40px"></a></li>
+											</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-login"><a href="/main/?page=teacher_login"><b>教師登入</b></a></li>					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</div>
+</div><div class="container container-top">
+	<div class="row">
+		<div class="title text-right">
+			<img src="img/try.png" height="100px">
+		</div>
+		<div class="col-md-12">
+			<div class="panel panel-default" style="margin:30px 0 75px;">
+				<div class="panel-heading">
+					<h4>影像解碼</h4>
+				</div>
+				<div class="panel-body" style="padding:25px;">
+					<p>海狸想要將一張圖傳送給他的朋友。為了方便傳輸，他利用一種特別的方法來將影像轉換成一串文字，這個過程稱為「編碼」。首先，將圖片切成很多個小區塊，稱為「像素」，且每個像素內僅有一種顏色。這張圖片只有三種顏色：黑（以字母B表示）、白（以字母W表示）、灰（以字母G表示）。影像經過編碼後會形成一串由幾組字碼組合而成的序列；每一組字碼皆是一個數字接著一個英文字母，代表著一段連續的像素。例如：2B3W 代表2個連續的黑色 (B) 像素接著3個連續的白色 (W) 像素。另外，整張影像經過編碼後，最後剩餘的部分皆為白色(W) 像素。例如：若一張影像包含20個像素，而此張影像經過編碼後為 4G，代表前四個連續像素是灰色的，剩下的16個像素皆為白色。</p>
+
+<p><strong>下列哪一張圖片經過此種編碼方式後，會是&ldquo;1B 2G 1W 4G 2W 1G 3W 3B 2W 1G&rdquo;？</strong></p>					<form id="subform" action="?page=try_ans&id=36" method="post">
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='<img src="img/2013/7-1.png">'>&nbsp;&nbsp;<img src="img/2013/7-1.png">									</div>
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='<img src="img/2013/7-2.png">'>&nbsp;&nbsp;<img src="img/2013/7-2.png">									</div>
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='<img src="img/2013/7-3.png">'>&nbsp;&nbsp;<img src="img/2013/7-3.png">									</div>
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='<img src="img/2013/7-4.png">'>&nbsp;&nbsp;<img src="img/2013/7-4.png">									</div>
+														<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value="不作答">&nbsp;&nbsp;放棄作答
+								</div>
+												<div class="col-md-12 text-center" style="margin:75px 0 30px;">
+							<a href="?page=news" class="btn btn-default long-button">取&nbsp;&nbsp;消</a>
+							<input type="submit" value="確&nbsp;&nbsp;定" class="btn btn-primary long-button">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<div>	</body>
+</html>

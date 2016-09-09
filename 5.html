@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bebras國際運算思維能力測驗</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/custom.css">
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		
+		<!--datetime picker-->
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+		
+		<!--text editor-->
+		<script src="js/ckeditor.js"></script>
+		
+		<!--tags input-->
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />
+		<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
+
+		<!--chart.js-->
+		<script src="js/Chart.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid" >
+	<div class="row">
+		<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#5ebbe7;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toogle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/"><img src="img/bebras.png" height="40px"></a>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="?page=news"><img src="img/nav-news.png" height="40px"></a></li>
+						<li><a href="?page=about"><img src="img/nav-about.png" height="40px"></a></li>
+						<li><a href="?page=try"><img src="img/nav-try.png" height="40px"></a></li>
+						<li><a href="?page=contact"><img src="img/nav-contact.png" height="40px"></a></li>
+						<li><a href="?page=start_test"><img src="img/nav-start.png" height="40px"></a></li>
+											</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-login"><a href="/main/?page=teacher_login"><b>教師登入</b></a></li>					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+	</div>
+</div><div class="container container-top">
+	<div class="row">
+		<div class="title text-right">
+			<img src="img/try.png" height="100px">
+		</div>
+		<div class="col-md-12">
+			<div class="panel panel-default" style="margin:30px 0 75px;">
+				<div class="panel-heading">
+					<h4>生日派對</h4>
+				</div>
+				<div class="panel-body" style="padding:25px;">
+					<div class="row">
+<div class="col-md-12">
+小海貍路易斯很高興他快要10歲了，但同時他有些擔心他的生日派對準備不夠周全。如下表一，他有兩種甜點的食譜，而他的櫥櫃裡有表二所列的食材：
+</div>
+<div class="col-md-12" style="margin-top:25px; margin-bottom:15px;">
+<div class="col-md-6 text-center">
+表一
+<table class="table table-striped table-bordered">
+<tr class="warning"><th class="col-md-6 text-center">5片煎餅</th><th class="col-md-6 text-center">1份蛋糕</th></tr>
+<tr><td>					<ul><li>麵粉100克</li>
+<li>牛奶20毫升</li>
+<li>雞蛋1顆</li>
+</ul>
+</td>
+<td>
+<ul>					<li>糖100克</li>				<li>麵粉100克</li>
+<li>奶油100克</li>
+<li>雞蛋2顆</li>
+</ul></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-md-6 text-center">
+			表二
+			<table class="table">
+				<tr class="warning">
+					<td>
+						<ul>
+							<li>6 顆雞蛋</li>
+							<li>200克的奶油</li>
+							<li>500克的糖</li>
+							<li>500克的麵粉</li>
+							<li>60毫升的牛奶</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div class="col-md-12">
+他只會完全按照食譜製作甜點，不知道怎麼調整份量只做一部分的甜點（比如說半份蛋糕或是一片煎餅）。
+<p>小海貍路易斯想要分配櫥櫃現有的材料依照食譜製作這兩種甜點。請問下列何者敘述是正確的？
+	</div>
+</div>					<form id="subform" action="?page=try_ans&id=5" method="post">
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='不論怎麼分配，糖都無法全部用完'>&nbsp;&nbsp;不論怎麼分配，糖都無法全部用完									</div>
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='不論怎麼分配，牛奶都無法全部耗盡'>&nbsp;&nbsp;不論怎麼分配，牛奶都無法全部耗盡									</div>
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='用完所有的材料是有可能的'>&nbsp;&nbsp;用完所有的材料是有可能的									</div>
+															<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value='食材不夠同時製作兩種甜點'>&nbsp;&nbsp;食材不夠同時製作兩種甜點									</div>
+														<div class="col-md-12" style="margin-top:15px;">
+									<input type="radio" name="answer" value="不作答">&nbsp;&nbsp;放棄作答
+								</div>
+												<div class="col-md-12 text-center" style="margin:75px 0 30px;">
+							<a href="?page=news" class="btn btn-default long-button">取&nbsp;&nbsp;消</a>
+							<input type="submit" value="確&nbsp;&nbsp;定" class="btn btn-primary long-button">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<div>	</body>
+</html>

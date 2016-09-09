@@ -1,0 +1,77 @@
+.panel-span{
+	padding-left:35px; padding-right:35px;
+}
+.span-shift{
+	margin:50px 0 35px 0;
+}
+.container-top{
+	margin-top:75px;
+}
+.title{
+	margin:50px 0 25px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffff9d;
+}
+.nav-login{
+	margin-top:9px;
+}
+.news-table{
+	background-color:#FFFFEB;
+}
+.news-content{
+	margin:5px 0 5px 15px;
+	color:#666;
+	font-size: 110%;
+}
+.news-timestamp{
+	margin:8px 15px 8px 0;
+	color:#FF9D37;
+}
+.input-margin{
+	margin-top:35px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	background-color:#eee;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #5ebbe7;
+  color: #eee;
+}
+.top-button{
+	margin:15px 0 20px 0;
+}
+.in-panel{
+	margin-bottom:15px;
+	padding-left:30px;
+	padding-right:25px;
+}
+.dropdown-menu .divider {
+	background-color:#666;
+}
+.panel-body  .table{
+	border-style:solid;
+	border-color:white;
+}
+.well{
+	background-color:rgba(94,187,231,0.1);
+	#background-color:rgba(244,244,244,0.3);
+}
+.long-button{
+	margin-left:15px;
+	padding-left:50px;
+	padding-right:50px;
+}
+.round-border{
+	border-top-right-radius:80px;
+	border-bottom-left-radius:80px;
+	border:1px solid #ddd;
+	padding:45px 35px;"
+}
