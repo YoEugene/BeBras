@@ -1,112 +1,105 @@
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Bebras國際運算思維能力測驗</title>
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/custom.css">
-		
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		
-		<!--datetime picker-->
-		<script src="js/bootstrap-datepicker.min.js"></script>
-		<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-		
-		<!--text editor-->
-		<script src="js/ckeditor.js"></script>
-		
-		<!--tags input-->
-		<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />
-		<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
-
-		<!--chart.js-->
-		<script src="js/Chart.js"></script>
-	</head>
-	<body>
-		<div class="container-fluid" >
-	<div class="row">
-		<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#5ebbe7;">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toogle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/"><img src="img/bebras.png" height="40px"></a>
-				</div>
-				
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="?page=news"><img src="img/nav-news.png" height="40px"></a></li>
-						<li><a href="?page=about"><img src="img/nav-about.png" height="40px"></a></li>
-						<li><a href="?page=try"><img src="img/nav-try.png" height="40px"></a></li>
-						<li><a href="?page=contact"><img src="img/nav-contact.png" height="40px"></a></li>
-						<li><a href="?page=start_test"><img src="img/nav-start.png" height="40px"></a></li>
-											</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="nav-login"><a href="/main/?page=teacher_login"><b>教師登入</b></a></li>					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div>
-		</nav>
-	</div>
-</div><div class="container container-top">
-	<div class="row">
-		<div class="title text-right">
-			<img src="img/try.png" height="100px">
-		</div>
-		<div class="col-md-12">
-			<div class="panel panel-default" style="margin:30px 0 75px;">
-				<div class="panel-heading">
-					<h4>骰子</h4>
-				</div>
-				<div class="panel-body" style="padding:25px;">
-					<div class="col-md-12">
-<p>以下三個指令draw_1、draw_2和draw_2A，如下所示分別在方框中繪製不同的圓點：
+<head>
+<meta charset="utf-8"/>
+<title>Bebras國際運算思維能力測驗</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--datetime picker-->
+<script src="js/bootstrap-datepicker.min.js"></script>
+<link href="css/bootstrap-datepicker.min.css" rel="stylesheet">
+<!--text editor-->
+<script src="js/ckeditor.js"></script>
+<!--tags input-->
+<link href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" rel="stylesheet"/>
+<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
+<!--chart.js-->
+<script src="js/Chart.js"></script>
+</link></link></link></link></head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#5ebbe7;">
+<div class="container-fluid">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+<span class="sr-only">Toogle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img height="40px" src="img/bebras.png"/></a>
 </div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="?page=news"><img height="40px" src="img/nav-news.png"/></a></li>
+<li><a href="?page=about"><img height="40px" src="img/nav-about.png"/></a></li>
+<li><a href="?page=try"><img height="40px" src="img/nav-try.png"/></a></li>
+<li><a href="?page=contact"><img height="40px" src="img/nav-contact.png"/></a></li>
+<li><a href="?page=start_test"><img height="40px" src="img/nav-start.png"/></a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="nav-login"><a href="/main/?page=teacher_login"><b>教師登入</b></a></li> </ul>
+</div><!-- /.navbar-collapse -->
+</div>
+</nav>
+</div>
+</div><div class="container container-top">
+<div class="row">
+<div class="title text-right">
+<img height="100px" src="img/try.png">
+</img></div>
+<div class="col-md-12">
+<div class="panel panel-default" style="margin:30px 0 75px;">
+<div class="panel-heading">
+<h4>骰子</h4>
+</div>
+<div class="panel-body" style="padding:25px;">
+<div class="col-md-12">
+<p>以下三個指令draw_1、draw_2和draw_2A，如下所示分別在方框中繪製不同的圓點：
+</p></div>
 <div class="col-md-12 text-center">
 <img src="img/2013/8-1.png" width="40%">
-</div>
+</img></div>
 <div class="col-md-12" style="margin-top:15px;">
-<p>「旋轉90度」指令使方框及其中的圓點旋轉90度。舉例來說，結合指令draw_2A,&nbsp; turn90可以得到下圖：
-</div>
+<p>「旋轉90度」指令使方框及其中的圓點旋轉90度。舉例來說，結合指令draw_2A,  turn90可以得到下圖：
+</p></div>
 <div class="col-md-12">
 <img src="img/2013/8-2.png">
-</div>
+</img></div>
 <div class="col-md-12" style="margin-top:15px;">
 <p>我們可以結合指令在方框中繪製出不同的圓點圖。舉例來說，指令draw_1, draw_2, turn90可以畫出下圖：
-</div>
+</p></div>
 <div class="col-md-12">
 <img src="img/2013/8-3.png">
-</div>
+</img></div>
 <div class="col-md-12" style="margin-top:15px;">
 <p>請問哪一組指令可以在方框中繪出右下圖？</p>
 </div>
 <div class="col-md-12">
 <img src="img/2013/8-4.png">
-</div>					<form id="subform" action="?page=try_ans&id=37" method="post">
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='draw_2A, turn90, draw_2, draw_1'>&nbsp;&nbsp;draw_2A, turn90, draw_2, draw_1									</div>
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='draw_2A, draw_2, turn90, draw_2'>&nbsp;&nbsp;draw_2A, draw_2, turn90, draw_2									</div>
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='draw_2, draw _2A, turn90, draw_2'>&nbsp;&nbsp;draw_2, draw _2A, turn90, draw_2									</div>
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='draw_2, turn90, draw_2, draw_2A'>&nbsp;&nbsp;draw_2, turn90, draw_2, draw_2A									</div>
-														<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value="不作答">&nbsp;&nbsp;放棄作答
-								</div>
-												<div class="col-md-12 text-center" style="margin:75px 0 30px;">
-							<a href="?page=news" class="btn btn-default long-button">取&nbsp;&nbsp;消</a>
-							<input type="submit" value="確&nbsp;&nbsp;定" class="btn btn-primary long-button">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-<div>	</body>
+</img></div> <form action="?page=try_ans&amp;id=37" id="subform" method="post">
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="draw_2A, turn90, draw_2, draw_1">  draw_2A, turn90, draw_2, draw_1									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="draw_2A, draw_2, turn90, draw_2">  draw_2A, draw_2, turn90, draw_2									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="draw_2, draw _2A, turn90, draw_2">  draw_2, draw _2A, turn90, draw_2									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="draw_2, turn90, draw_2, draw_2A">  draw_2, turn90, draw_2, draw_2A									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="不作答">  放棄作答
+								</input></div>
+<div class="col-md-12 text-center" style="margin:75px 0 30px;">
+<a class="btn btn-default long-button" href="http://bebras.csie.ntnu.edu.tw/main/?page=try_ans&amp;id=37">看 解 答</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div> </div></div></body>
 </html>

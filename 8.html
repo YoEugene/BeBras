@@ -1,151 +1,144 @@
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Bebras國際運算思維能力測驗</title>
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/custom.css">
-		
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		
-		<!--datetime picker-->
-		<script src="js/bootstrap-datepicker.min.js"></script>
-		<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-		
-		<!--text editor-->
-		<script src="js/ckeditor.js"></script>
-		
-		<!--tags input-->
-		<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" />
-		<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
-
-		<!--chart.js-->
-		<script src="js/Chart.js"></script>
-	</head>
-	<body>
-		<div class="container-fluid" >
-	<div class="row">
-		<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#5ebbe7;">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toogle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/"><img src="img/bebras.png" height="40px"></a>
-				</div>
-				
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="?page=news"><img src="img/nav-news.png" height="40px"></a></li>
-						<li><a href="?page=about"><img src="img/nav-about.png" height="40px"></a></li>
-						<li><a href="?page=try"><img src="img/nav-try.png" height="40px"></a></li>
-						<li><a href="?page=contact"><img src="img/nav-contact.png" height="40px"></a></li>
-						<li><a href="?page=start_test"><img src="img/nav-start.png" height="40px"></a></li>
-											</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="nav-login"><a href="/main/?page=teacher_login"><b>教師登入</b></a></li>					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div>
-		</nav>
-	</div>
+<head>
+<meta charset="utf-8"/>
+<title>Bebras國際運算思維能力測驗</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--datetime picker-->
+<script src="js/bootstrap-datepicker.min.js"></script>
+<link href="css/bootstrap-datepicker.min.css" rel="stylesheet">
+<!--text editor-->
+<script src="js/ckeditor.js"></script>
+<!--tags input-->
+<link href="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.css" rel="stylesheet"/>
+<script src="//cdn.jsdelivr.net/bootstrap.tagsinput/0.4.2/bootstrap-tagsinput.min.js"></script>
+<!--chart.js-->
+<script src="js/Chart.js"></script>
+</link></link></link></link></head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#5ebbe7;">
+<div class="container-fluid">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+<span class="sr-only">Toogle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img height="40px" src="img/bebras.png"/></a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="?page=news"><img height="40px" src="img/nav-news.png"/></a></li>
+<li><a href="?page=about"><img height="40px" src="img/nav-about.png"/></a></li>
+<li><a href="?page=try"><img height="40px" src="img/nav-try.png"/></a></li>
+<li><a href="?page=contact"><img height="40px" src="img/nav-contact.png"/></a></li>
+<li><a href="?page=start_test"><img height="40px" src="img/nav-start.png"/></a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="nav-login"><a href="/main/?page=teacher_login"><b>教師登入</b></a></li> </ul>
+</div><!-- /.navbar-collapse -->
+</div>
+</nav>
+</div>
 </div><div class="container container-top">
-	<div class="row">
-		<div class="title text-right">
-			<img src="img/try.png" height="100px">
-		</div>
-		<div class="col-md-12">
-			<div class="panel panel-default" style="margin:30px 0 75px;">
-				<div class="panel-heading">
-					<h4>電話費用</h4>
-				</div>
-				<div class="panel-body" style="padding:25px;">
-					<div class="row">
-	<div class="col-md-12">
+<div class="row">
+<div class="title text-right">
+<img height="100px" src="img/try.png">
+</img></div>
+<div class="col-md-12">
+<div class="panel panel-default" style="margin:30px 0 75px;">
+<div class="panel-heading">
+<h4>電話費用</h4>
+</div>
+<div class="panel-body" style="padding:25px;">
+<div class="row">
+<div class="col-md-12">
 <p>某家電信公司須儲存客戶的通話計費資訊。每位客戶皆有三種不同類型的通信費用，分別為資料、語音、和文字通訊費用，而每位客戶只有一組電話號碼。現在儲存這些資訊有兩種選項：
-	</div>
+	</p></div>
 </div>
 <div class="row">
-	<div class="col-md-12" style="margin-top:15px;">
-		<h4 style="text-info"><u>選項X</u></h4>
-	</div>
-	<div class="col-md-6">
+<div class="col-md-12" style="margin-top:15px;">
+<h4 style="text-info"><u>選項X</u></h4>
+</div>
+<div class="col-md-6">
 <p>用一張表格儲存所有資訊，表格中的每一列包含某位客戶的姓名、電話號碼、通訊類型（資料、語音或文字）及該類型所產生之傳輸費用，範例如右表。
-	</div>
-	<div class="col-md-3">
-		<table class="table">
-			<tr class="warning"><th>姓名</th><th>電話</th><th>類型</th><th>費用</th></tr>
-			<tr><td>陳奇</td><td>458-6578</td><td>資料</td><td>10.00</td></tr>
-			<tr><td>陳奇</td><td>458-6578</td><td>語音</td><td>15.00</td></tr>
-			<tr><td>陳奇</td><td>458-6578</td><td>文字</td><td>10.00</td></tr>
-			<tr><td>何蓮</td><td>235-8998</td><td>資料</td><td>40.00</td></tr>
-			<tr><td>何蓮</td><td>235-8998</td><td>語音</td><td>40.00</td></tr>
-			<tr><td>何蓮</td><td>235-8998</td><td>文字</td><td>30.00</td></tr>
-			<tr><td>徐雅</td><td>515-6632</td><td>資料</td><td>25.00</td></tr>
-			<tr><td>徐雅</td><td>515-6632</td><td>語音</td><td>20.00</td></tr>
-			<tr><td>徐雅</td><td>515-6632</td><td>文字</td><td>20.00</td></tr>
-		</table>
-	</div>
+	</p></div>
+<div class="col-md-3">
+<table class="table">
+<tr class="warning"><th>姓名</th><th>電話</th><th>類型</th><th>費用</th></tr>
+<tr><td>陳奇</td><td>458-6578</td><td>資料</td><td>10.00</td></tr>
+<tr><td>陳奇</td><td>458-6578</td><td>語音</td><td>15.00</td></tr>
+<tr><td>陳奇</td><td>458-6578</td><td>文字</td><td>10.00</td></tr>
+<tr><td>何蓮</td><td>235-8998</td><td>資料</td><td>40.00</td></tr>
+<tr><td>何蓮</td><td>235-8998</td><td>語音</td><td>40.00</td></tr>
+<tr><td>何蓮</td><td>235-8998</td><td>文字</td><td>30.00</td></tr>
+<tr><td>徐雅</td><td>515-6632</td><td>資料</td><td>25.00</td></tr>
+<tr><td>徐雅</td><td>515-6632</td><td>語音</td><td>20.00</td></tr>
+<tr><td>徐雅</td><td>515-6632</td><td>文字</td><td>20.00</td></tr>
+</table>
+</div>
 </div>
 <div class="row">
-	<div class="col-md-12" style="margin-top:15px;">
-		<h4 style="text-info"><u>選項Y</u></h4>
-	</div>
-	<div class="col-md-6">
+<div class="col-md-12" style="margin-top:15px;">
+<h4 style="text-info"><u>選項Y</u></h4>
+</div>
+<div class="col-md-6">
 <p>用一個表格儲存每位客戶的姓名和電話號碼，另一個表格中每一列分別儲存電話號碼、通訊類型(資料收費、語音收費、或文字收費)、及所產生之費用，範例如右表。
-	</div>
-	<div class="col-md-3">
-		<table class="table">
-			<tr class="warning"><th>姓名</th><th>電話</th></tr>
-			<tr><td>陳奇</td><td>458-6578</td></tr>
-			<tr><td>何蓮</td><td>235-8998</td></tr>
-			<tr><td>徐雅</td><td>515-6632</td></tr>
-		</table>
-	</div>
-	<div class="col-md-3">
-		<table class="table">
-			<tr class="warning"><th>電話</th><th>類型</th><th>費用</th></tr>
-			<tr><td>458-6578</td><td>資料</td><td>10.00</td></tr>
-			<tr><td>458-6578</td><td>語音</td><td>15.00</td></tr>
-			<tr><td>458-6578</td><td>文字</td><td>10.00</td></tr>
-			<tr><td>235-8998</td><td>資料</td><td>40.00</td></tr>
-			<tr><td>235-8998</td><td>語音</td><td>40.00</td></tr>
-			<tr><td>235-8998</td><td>文字</td><td>30.00</td></tr>
-			<tr><td>515-6632</td><td>資料</td><td>25.00</td></tr>
-			<tr><td>515-6632</td><td>語音</td><td>20.00</td></tr>
-			<tr><td>515-6632</td><td>文字</td><td>20.00</td></tr>
-		</table>
-	</div>
+	</p></div>
+<div class="col-md-3">
+<table class="table">
+<tr class="warning"><th>姓名</th><th>電話</th></tr>
+<tr><td>陳奇</td><td>458-6578</td></tr>
+<tr><td>何蓮</td><td>235-8998</td></tr>
+<tr><td>徐雅</td><td>515-6632</td></tr>
+</table>
+</div>
+<div class="col-md-3">
+<table class="table">
+<tr class="warning"><th>電話</th><th>類型</th><th>費用</th></tr>
+<tr><td>458-6578</td><td>資料</td><td>10.00</td></tr>
+<tr><td>458-6578</td><td>語音</td><td>15.00</td></tr>
+<tr><td>458-6578</td><td>文字</td><td>10.00</td></tr>
+<tr><td>235-8998</td><td>資料</td><td>40.00</td></tr>
+<tr><td>235-8998</td><td>語音</td><td>40.00</td></tr>
+<tr><td>235-8998</td><td>文字</td><td>30.00</td></tr>
+<tr><td>515-6632</td><td>資料</td><td>25.00</td></tr>
+<tr><td>515-6632</td><td>語音</td><td>20.00</td></tr>
+<tr><td>515-6632</td><td>文字</td><td>20.00</td></tr>
+</table>
+</div>
 </div>
 <div class="row">
-	<div class="col-md-12">
-		<p>已知儲存空間計量單位為位元組，而儲存一個姓名需要128位元組，每一種類型需1位元組，每個電話號碼和費用則需要4位元組。此外，儲存空間不會因名字長短和費用高低而有所不同。
+<div class="col-md-12">
+<p>已知儲存空間計量單位為位元組，而儲存一個姓名需要128位元組，每一種類型需1位元組，每個電話號碼和費用則需要4位元組。此外，儲存空間不會因名字長短和費用高低而有所不同。
 		<p>假設X和Y分別代表選項X和Y所需的儲存空間，這家電信公司共有1000個電話客戶，下列關於儲存空間的說法，哪個是正確的？
-	</div>
-</div>					<form id="subform" action="?page=try_ans&id=8" method="post">
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='Y需要的空間比X的兩倍大（Y>2X）'>&nbsp;&nbsp;Y需要的空間比X的兩倍大（Y>2X）									</div>
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='Y需要較多空間，但沒到X的兩倍大(Y>X, 但Y<2X)'>&nbsp;&nbsp;Y需要較多空間，但沒到X的兩倍大(Y>X, 但Y<2X)									</div>
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='X需要較多空間，但沒到Y的兩倍大(X>Y, 但X<2Y)'>&nbsp;&nbsp;X需要較多空間，但沒到Y的兩倍大(X>Y, 但X<2Y)									</div>
-															<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value='X需要的空間比Y的兩倍大（X>2Y）'>&nbsp;&nbsp;X需要的空間比Y的兩倍大（X>2Y）									</div>
-														<div class="col-md-12" style="margin-top:15px;">
-									<input type="radio" name="answer" value="不作答">&nbsp;&nbsp;放棄作答
-								</div>
-												<div class="col-md-12 text-center" style="margin:75px 0 30px;">
-							<a href="?page=news" class="btn btn-default long-button">取&nbsp;&nbsp;消</a>
-							<input type="submit" value="確&nbsp;&nbsp;定" class="btn btn-primary long-button">
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-<div>	</body>
+	</p></p></div>
+</div> <form action="?page=try_ans&amp;id=8" id="subform" method="post">
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="Y需要的空間比X的兩倍大（Y&gt;2X）">  Y需要的空間比X的兩倍大（Y&gt;2X）									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="Y需要較多空間，但沒到X的兩倍大(Y&gt;X, 但Y&lt;2X)">  Y需要較多空間，但沒到X的兩倍大(Y&gt;X, 但Y&lt;2X)									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="X需要較多空間，但沒到Y的兩倍大(X&gt;Y, 但X&lt;2Y)">  X需要較多空間，但沒到Y的兩倍大(X&gt;Y, 但X&lt;2Y)									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="X需要的空間比Y的兩倍大（X&gt;2Y）">  X需要的空間比Y的兩倍大（X&gt;2Y）									</input></div>
+<div class="col-md-12" style="margin-top:15px;">
+<input name="answer" type="radio" value="不作答">  放棄作答
+								</input></div>
+<div class="col-md-12 text-center" style="margin:75px 0 30px;">
+<a class="btn btn-default long-button" href="http://bebras.csie.ntnu.edu.tw/main/?page=try_ans&amp;id=8">看 解 答</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div> </div></div></body>
 </html>
